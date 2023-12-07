@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h3>Lista de mascotas en la BD</h3>
+
+{% for i in mascota %}
+    <ul>
+        <li>{{i}}</li>
+    </ul>
+{% endfor %}
+
+{% endblock %}

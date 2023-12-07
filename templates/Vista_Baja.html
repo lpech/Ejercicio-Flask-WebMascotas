@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h3>Baja de mascotas</h3>
+<form method="post">
+    {{formulario.hidden_tag()}}
+    {{formulario.id.label}}{{formulario.id}}
+    {{formulario.boton}}
+</form>
+
+{% endblock %}
